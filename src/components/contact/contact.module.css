@@ -1,0 +1,68 @@
+.contactWrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.headingOne {
+  font-size: 6rem;
+  margin-bottom: 5rem;
+  /* color: rgb(154, 196, 124); */
+}
+
+.leftSide {
+  flex: 1;
+  /* background-color: aqua; */
+}
+
+.rightSide {
+  flex: 7;
+  /* background-color: rgb(238, 154, 154); */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-top: -200px;
+}
+
+.githubId,
+.linkedInId,
+.emailId {
+  width: auto;
+  font-size: 4rem;
+  /* height: 4rem; */
+  color: rgb(154, 196, 124);
+  background-color: none;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.githubId > a,
+.linkedInId > a,
+.emailId > a {
+  text-decoration: none;
+  color: black;
+  /* color: rgb(154, 196, 124); */
+}
+
+/**** MEDIA SCREEN 600px  *****************************/
+@media screen and (max-width: 600px) {
+  .rightSide {
+    margin-top: -270px;
+  }
+
+  .headingOne {
+    font-size: 3.5rem;
+    /* color: rgb(154, 196, 124); */
+  }
+
+  .githubId,
+  .linkedInId,
+  .emailId {
+    font-size: 2rem;
+  }
+}

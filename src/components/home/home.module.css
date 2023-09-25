@@ -1,0 +1,86 @@
+.homeWrapper {
+  width: 100%;
+  height: 100%;
+  /* background-color: aqua; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem;
+}
+
+.hiSection,
+.nameSection,
+.passionateDeveloperSection {
+  display: flex;
+  font-size: 2.5rem;
+}
+
+.hiSection {
+  /* padding-top: 11rem; */
+  margin-top: -8rem;
+}
+
+.nameSection > h1 > span,
+.passionateDeveloperSection > h1 > span {
+  color: rgb(154, 196, 124);
+}
+
+.imageOfProgrammer {
+  width: 300px;
+  height: 300px;
+  border: 2px solid white;
+  border-radius: 8px;
+}
+
+.imageOfProgrammer > img {
+  width: 100%;
+  height: 100%;
+}
+
+/**** MEDIA SCREEN 900px  *****************************/
+@media screen and (max-width: 900px) {
+  .homeWrapper {
+    gap: 1rem;
+  }
+
+  .hiSection {
+    /* padding-top: 2rem; */
+    margin-top: 0.1rem;
+  }
+
+  .hiSection,
+  .nameSection,
+  .passionateDeveloperSection {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    font-size: 2rem;
+  }
+
+  .imageOfProgrammer {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+/**** MEDIA SCREEN 390px  *****************************/
+@media screen and (max-width: 414px) {
+  .hiSection {
+    margin-top: -8rem;
+  }
+
+  .hiSection,
+  .nameSection,
+  .passionateDeveloperSection {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1.5rem;
+  }
+
+  .imageOfProgrammer {
+    width: 100px;
+    height: 100px;
+  }
+}

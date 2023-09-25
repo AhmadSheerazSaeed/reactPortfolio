@@ -1,0 +1,28 @@
+.mainWrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  max-width: 1000px;
+  height: 100vh;
+
+  margin: 0 auto;
+  background-color: #edeff1;
+}
+
+header {
+  display: flex;
+  /* background-color: aqua; */
+  height: 50px;
+}
+
+main {
+  /* background-color: burlywood; */
+  flex-grow: 1;
+  background-color: #edeff1;
+}
+
+footer {
+  /* background-color: bisque; */
+  height: 50px;
+  background-color: #edeff1;
+}
